@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Giglala.com - Website and E-Commerce Development</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- awesome fontfamily -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a class="active" href="index.html">Home</a>
+         <a href="https://staging.giglala.com/">About</a>
+         <a href="contact.html">Contact</a>
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="head-top">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-sm-3">
+                     <div class="logo">
+                        <a href="index.html"><img src="images/logo-giglala.png" /></a>
+                     </div>
+                  </div>
+                  <div class="col-sm-9">
+                     <ul class="email text_align_right">
+                        <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header -->
+      <!-- start slider section -->
+      <div  class=" banner_main">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="club">
+                     <figure><img class="sm_n0" src="images/bbnner.png"> <img class="tes_n0" src="images/banner1.jpg"> </figure>
+                     <div class="poa_t">
+                        <h1 style="color: black;">Welcome to Giglala</h1>
+                        <p  style="color: black;">Website and E-Commerce Development</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end slider section -->
+      <div class="footbol">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <div class="foot_img">
+                                       <figure><img src="images/web.png" alt="#"/></figure>
+                                    </div>
+                                    <a class="read_more" href="Javascript:void(0)">Web Design</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <div class="foot_img">
+                                       <figure><img src="images/hosting.png" alt="#"/></figure>
+                                    </div>
+                                    <a class="read_more" href="Javascript:void(0)">Hosting</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <div class="foot_img">
+                                       <figure><img src="images/monthly.png" alt="#"/></figure>
+                                    </div>
+                                    <a class="read_more" href="Javascript:void(0)">Monthly</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- sports -->
+      <div class="sports">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage text_align_center">
+                     <h2>What do We do</h2>
+                     <p>Giglala is a subscription-based development platform offering website design, development, and maintenance services. We design premium website templates and e-commerce solutions to help businesses succeed online. With an affordable monthly subscription, we offer full-service website design and e-commerce setup for modern business needs.</p>
+                     <button id="search-button">Search</button>
+                     <input type="search" id="search-input" placeholder=" ...">
+               </div>
+            </div>
+            
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage text_align_center">
+                     <h2>How it Works</h2>
+               </div>
+            </div>
+            <div class="row d_flex">
+               <div class="col-md-3">
+                  <div class="sports_main text_align_center">
+                     <figure><img  src="images/sport1.png" alt="#"/></figure>
+                     <div class="sports_text">
+                        <h3>Choose Your Design</h3>
+                        <p>Giglala provides a diverse selection of professionally designed website templates and e-commerce layouts tailored to startups, small businesses, and established brands. Browse our collection to find the perfect design that matches your vision. </p>
+                        <a class="read_more" href="sports.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="sports_main text_align_center">
+                     <figure><img class="dorder" src="images/sport2.png" alt="#"/></figure>
+                     <div class="sports_text">
+                        <h3 class="dark3">Make Payment</h3>
+                        <p>Payments are billed quarterly. You can choose to pay via Stripe, PayPal, or for Singapore customers, via PayNow to (65)94555737</p>
+                        <a class="read_more" href="sports.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="sports_main text_align_center">
+                     <figure><img src="images/sport3.png" alt="#"/></figure>
+                     <div class="sports_text">
+                        <h3>Client Onboarding</h3>
+                        <p>After payment, you'll receive login details for your dashboard, where our designers and tech support team will work with you to quickly complete your website. </p>
+                        <a class="read_more" href="sports.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end sports -->
+      <!-- about -->
+      <div class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <a class="read_more0" style="color: white;">We Handle The Setup</a>
+                     <p>Once you have selected your design, our team takes over. We handle everything from customization and development to hosting and launching your website. We integrate all the necessary features, ensuring your site is fast, secure, and optimized for both desktop and mobile devices.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="trannir">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <a class="read_more0" style="color: white;">Get Start Today</a>
+                     <p>At Giglala, we make web design and e-commerce setup easy, affordable, and flexible. All you need to do is choose your design, and we’ll take care of the rest. With fixed prices, quarterly payment plans, and the ability to select three websites per year, you can ensure that your online presence remains as dynamic and innovative as your business.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row d_flex">
+               <div class="col-lg-10 offset-lg-1 col-md-12">
+                  <div>
+                     <div class="carousel-inner">
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="trannir_text">
+                                    <i><img src="images/clint.jpg" alt="#"/></i>
+                                    <h3>Denial sork</h3>
+                                    <span>Trannir</span>
+                                    <ul class="social_icon text_align_center">
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="trannir_text">
+                                    <i><img src="images/clint.jpg" alt="#"/></i>
+                                    <ul class="social_icon text_align_center">
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                       <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end trannir -->
+      <!-- our_club -->
+      <div class="sports">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage text_align_center">
+                     <h2>Othe Offer</h2>
+               </div>
+            </div>
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="sports_main text_align_center">
+                     <div class="sports_text">
+                        <h3>Website Development</h3>
+                        <p>Creating visually appealing and functional websites and landing pages.</p>
+                        <a class="read_more" href="https://staging.giglala.com/website-development">Explore more</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="sports_main text_align_center">
+                     <div class="sports_text">
+                        <h3>E-Commerce Development</h3>
+                        <p>Building scalable, secure, and user-friendly online stores.</p>
+                        <a class="read_more" href="https://staging.giglala.com/ecommerce-development">Explore More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="our_club">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage text_align_center">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end our_club -->
+      <!-- footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                     <h3>Follow Us</h3>
+                     <ul class="social_icon text_align_center">
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                     </ul>
+                     <div class="conta text_align_center">
+                        <ul>
+                           <li> <a href="Javascript:void(0)"><img src="images/call.png" alt="#"/> Call (65)94555737
+                              </a>
+                           </li>
+                           <li> <a href="Javascript:void(0)"><img src="images/mall.png" alt="#"/> giglala.web@gmail.com
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-8 offset-md-2">
+                     <div class="menu_bottom text_align_center">
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright text_align_center">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
